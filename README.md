@@ -1,56 +1,168 @@
-# Welcome to your Expo app 👋
+# 📱 React Native – 10 Mini Apps
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A collection of **10 beginner-friendly React Native applications** built with React Native and Expo. This repository contains different mini-projects designed to practice and improve mobile application development skills.
 
-## Get started
+Each application is developed separately using reusable and organized components to make the code easier to understand, maintain, and extend.
 
-1. Install dependencies
+## 🚀 Projects Included
 
-   ```bash
-   npm install
-   ```
+### 1. Simple Contact List
+A basic contact management application.
 
-2. Start the app
+- Display a list of contacts.
+- Show contact information.
+- Practice FlatList and reusable components.
 
-   ```bash
-   npx expo start
-   ```
+### 2. Card Info and URL
+A simple application for displaying personal or profile information with useful URLs.
 
-In the output, you'll find options to open the app in a
+- Display information cards.
+- Show website and social media links.
+- Practice linking and navigation.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 3. Make Beautiful Card
+An application for creating attractive and stylish cards.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Beautiful card layouts.
+- Custom colors and styles.
+- Reusable UI components.
 
-## Get a fresh project
+### 4. Background Changer
+A simple application that allows users to change the background color.
 
-When you're ready, run:
+- Change background colors dynamically.
+- Interactive buttons.
+- Practice React Native state management.
+
+### 5. Password Generator
+A password generator application for creating random passwords.
+
+- Generate random passwords.
+- Customize password length.
+- Include uppercase letters, lowercase letters, numbers, and special characters.
+- Copy generated passwords.
+
+### 6. Currency Exchanger
+A currency conversion application.
+
+- Select currencies.
+- Enter an amount.
+- Convert between currencies.
+- Display conversion results.
+
+### 7. Roll The Dice 🎲
+A simple dice rolling game.
+
+- Roll dice with a button.
+- Generate random dice numbers.
+- Display dice results.
+- Practice random number generation.
+
+### 8. Tic Tac Toe ❌⭕
+A classic two-player Tic Tac Toe game.
+
+- Two-player gameplay.
+- X and O turns.
+- Detect winning combinations.
+- Detect draw conditions.
+- Restart the game.
+
+### 9. Simple Song Player 🎵
+A basic music player application.
+
+- Play and pause songs.
+- Display song information.
+- Manage audio playback.
+- Practice audio player functionality.
+
+### 10. Music Player with Albums 🎧
+A more advanced music player with album-based organization.
+
+- Display music albums.
+- Show album artwork.
+- Display songs inside albums.
+- Play and pause music.
+- Switch between songs.
+- Display current song information.
+- Practice music player functionality and component-based architecture.
+
+---
+
+## 🛠️ Technologies Used
+
+- **React Native** – Mobile application development.
+- **Expo** – Development and testing environment.
+- **JavaScript / TypeScript** – Application logic.
+- **React Hooks** – State management and component logic.
+- **React Native Components** – Building reusable UI components.
+- **Expo Router** – Application navigation.
+- **Git & GitHub** – Version control.
+
+
+Each mini application is organized separately using components.
+
+
+## ⚙️ Installation and Setup
+
+### 1. Clone the Repository
 
 ```bash
-npm run reset-project
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Navigate to the Project Folder
 
-### Other setup steps
+```bash
+cd 10App
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 3. Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 4. Start the Expo Development Server
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+### 5. Run the Application
 
-Join our community of developers creating universal apps.
+You can run the application using:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Android Emulator
+- Expo Go (for compatible features)
+- iOS Simulator (requires macOS and Xcode)
+
+**Note:** Some native modules, especially advanced music playback features, may require an Expo Development Build instead of Expo Go.
+
+## 🎯 Learning Objectives
+
+Through these 10 mini applications, I aim to improve my understanding of:
+
+- React Native fundamentals.
+- Component-based architecture.
+- Reusable components.
+- Props and State.
+- React Hooks (`useState`, `useEffect`).
+- User interactions and event handling.
+- Styling and responsive UI.
+- Navigation between screens.
+- Audio playback and music management.
+- Application logic and problem-solving.
+
+## 👨‍💻 Author
+
+**Toe Naing Win**
+
+A collection of practical React Native projects created for learning, practicing, and improving mobile application development skills.
+
+## ⭐ Support
+
+If you find this repository helpful or interesting, please consider giving it a ⭐ on GitHub!
+
+---
+
+**Built with ❤️ using React Native and Expo.**
