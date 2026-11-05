@@ -1,14 +1,18 @@
 {
   "name": "myfirstapp",
-  "main": "expo-router/entry",
+  "main": "index.js",
   "version": "1.0.0",
   "dependencies": {
     "@expo/ui": "~57.0.23",
     "@fortawesome/fontawesome-svg-core": "^7.3.1",
     "@fortawesome/free-solid-svg-icons": "^7.3.1",
     "@fortawesome/react-native-fontawesome": "^1.0.0",
+    "@react-native-community/slider": "^5.2.2",
+    "@rntp/player": "^5.13.0",
     "expo": "~57.0.28",
+    "expo-audio": "~57.0.5",
     "expo-constants": "~57.0.21",
+    "expo-dev-client": "~57.0.20",
     "expo-device": "~57.0.2",
     "expo-font": "~57.0.4",
     "expo-glass-effect": "~57.0.4",
@@ -43,8 +47,8 @@
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint"
   },

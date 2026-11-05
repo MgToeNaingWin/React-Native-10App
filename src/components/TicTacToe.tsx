@@ -71,7 +71,7 @@ export default function TicTacToe() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <Text style={styles.HeadingText}>TicTacToe</Text>
+            <Text style={styles.HeadingText}>Simple TicTacToe</Text>
 
             {gameWinner ? (
                 <Text style={styles.winnerText}>{gameWinner}</Text>
